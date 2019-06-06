@@ -1,4 +1,4 @@
-# UIA
+# CNXi
 Keio-Web-Site
 目標…
 学生と情報をつなぐ
