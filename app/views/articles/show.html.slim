@@ -1,0 +1,23 @@
+h1 記事詳細
+
+.nav.justify-content-end
+    = link_to '一覧', articles_path, class: 'nav-link'
+table.table.table-hover
+    tbody
+        tr
+            th= Article.human_attribute_name(:id)
+            td= @article.id
+        tr
+            th= Article.human_attribute_name(:name)
+            td= @article.name
+        tr
+            th= Article.human_attribute_name(:description)
+            td= simple_format(h(@article.description), {}, sanitize: false, wrapper_tag: "div")
+        tr
+            th= Article.human_attribute_name(:created_at)
+            td= @article.created_at
+        tr
+            th= Article.human_attribute_name(:updated_at)
+            td= @article.updated_at
+= link_to '編集', edit_article_path(@article), class: 'btn btn-primary'
+= link_to '削除', article_path(@article), method: :delete, data: {confirm: "記事「#{@article.name}」を削除します。よろしいですか？"}, class: 'btn btn-danger'

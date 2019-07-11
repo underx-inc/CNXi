@@ -1,0 +1,6 @@
+h1 記事作成
+
+.nav.justify-content-end
+    = link_to '一覧', articles_path, class: 'nav-link'
+
+= render partial: 'form', locals: { article: @article }

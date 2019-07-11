@@ -1,27 +1,24 @@
-# CNXi
-大学生のための情報共有サイト、CNXi(コネクシー)
+# README
 
-目標：
-学生と情報をつなぐ
-大学に溢れる情報を集約、中継点になる
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-プロダクト：
-  ・単位ゲージ
-  ・カレンダー→講座、サークル情報
-  ・掲示板timeline
-  ・news
-  ・参加型にする
+Things you may want to cover:
 
-アカウント登録：
-・地域
-・大学
-・学部
-・学年
-・ニックネーム
-・興味（選択）
+* Ruby version
 
-メイン：
-記事メイン（記事の表示法→private, 地域のオススメ）
+* System dependencies
 
-留意点：
-ユーザーが多様化しても対応できるような設計
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
